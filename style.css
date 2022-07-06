@@ -16,7 +16,7 @@ a{
     margin: 0 auto;
 }
 .sec_title h2{
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 700;
     color: #121212
     ;
@@ -46,9 +46,10 @@ a{
     color: #ffffff;
 }
 .banner_item p{
-    font-size: 15px;
+    font-size: 13px;
     color: #ffffff;
-    padding: 12px 0px;
+    padding: 16px 0px;
+    display: block;
 }
 .banner_item a{
     background-color: #FF5959;
@@ -116,20 +117,16 @@ a{
 /* donate_plan css part start here */
 
 #donate_plan{
-    padding: 30px 0px 80px;
+    padding: 20px 0px 80px;
+margin-bottom: 100px!important;
 }
-/* .donate_columns{
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-} */
 .donate_plan_item{
     background-color:rgba(79, 157, 166, 0.1);
     width: 30%;
     text-align: center;
     float: left;
     padding: 35px 0px;
-    margin:12px 20px;
+    margin:12px 15px 90px!important;
 }
 .donate_plan_item:nth-child(2){
     background-color: rgba(255, 89, 89, 0.1);
@@ -147,16 +144,150 @@ a{
     font-size: 12px;
     color: #707070;
 }
-/* donate_plan css part start here */
+/* donate_plan css part end here */
 
 
 /* our_mission css part start  here */
 
 .our_mission{
-    padding: 40px 0px!important;
-    margin-top: 80px!important;
-    background-color:red;
+  padding: 40px 0px;
+  margin-top: 30px;
 }
-.our_mission .sec_title{
-    padding-top: 30px;
+.our_mission .sec_title p{
+    font-size: 14px;
+    color: #FF5959;
+    padding:10px 0px;
+    font-weight: 500;
 }
+
+.mission_content{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.mission_content .mission_left{
+    width: 50%;
+    padding: 30px;
+}
+.mission_left ul li{
+    display: inline-block;
+    margin-left: 8px;
+    margin-bottom: 30px;
+}
+.mission_left ul li h3{
+    color: #FF5959;
+    font-size: 17px;
+    font-weight: 700;
+    padding:7px 0px;
+}
+.mission_left ul li p{
+    font-size: 14px;
+    color: #707070;
+}
+.mission_right{
+    width: 50%;
+}
+.mission_right img{
+    width: 90%;
+}
+/* our_mission css part end  here */
+
+/* registration_part css start here */
+
+#registration_part{
+    padding: 20px 0px 30px;
+}
+#registration_part .sec_title p{
+    padding: 12px 0px;
+}
+.registration_content{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.registration_right{
+    padding:100px 40px 40px;
+    background-color: #121212;
+}
+.registration_right h3{
+    font-weight: 700;
+    color: #ffffff;
+    font-size:20px;
+    text-transform: uppercase;
+}
+.registration_right span{
+    color: #FF5959;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 12px 0px;
+    display: block;
+}
+.registration_right p{
+    font-size: 14px;
+    line-height: 28px;
+    color: #D9D9D9;
+    margin: 18px 0px;
+}
+.registration_right a{
+    background-color: #FF5959;
+    color: #ffffff;
+    padding: 10px 20px;
+    margin-top: 20px;
+    display: inline-block;
+    border-radius: 10px;
+}
+/* registration_part css end here */
+
+
+/* subscribe_part css start here */
+
+#subscribe_part{
+    padding: 40px 0px;
+    text-align: center;
+}
+#subscribe_part .sec_title p{
+    padding: 10px 0px;
+    font-weight: 700;
+    color: #FF5959;
+    font-weight: 19px;
+
+}
+#subscribe_part .input_box{
+    background-color: #FFF4D6;
+    width: 700px;
+    padding: 80px;
+    margin: 0 auto;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+#subscribe_part .input_box .amount{
+    background-color: #D9D9D9;
+    padding: 13px 90px;
+    display: inline-block;
+    text-align: left;
+    text-transform: capitalize;
+    margin: 0 auto;
+    border: none;
+}
+#subscribe_part .input_box a{
+    margin-top: 20px;
+    display: inline-block;
+    border-radius: 0px;
+    margin-left: -5px;
+}
+/* subscribe_part css end here */
+
+/* footer css part start here */
+
+footer{
+    margin-top: 30px;
+    background-color: #121212;
+    padding: 40px 0px;
+    text-align: center;
+    color: #ffffff;
+}
+footer p{
+    font-size: 14px;
+    line-height: 25px;
+}
+footer p a{
+    color: #FF5959;
+}
+/* footer css part end here */
